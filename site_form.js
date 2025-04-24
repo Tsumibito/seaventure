@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function(){
     }
   }
   function n(e){
-    return e && e.value && e.value.trim().length >= 2 && /^[A-Za-zА-Яа-яЁё]+$/.test(e.value.trim());
+    return e && e.value && e.value.trim().length >= 2 && /^[A-Za-zА-Яа-яЁёІіЄєЇїҐґ]+$/.test(e.value.trim());
   }
   function r(e){
     return e && e.value && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e.value.trim());
